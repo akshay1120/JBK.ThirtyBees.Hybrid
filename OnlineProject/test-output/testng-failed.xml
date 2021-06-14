@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <listeners>
+    <listener class-name="com.bees.listeners.TestListener"/>
+  </listeners>
+  <test thread-count="1" name="Test(failed)" parallel="methods">
     <classes>
-      <class name="com.bees.tests.CoffeeAndTeaTest">
+      <class name="com.bees.tests.TinCupTest">
         <methods>
-          <include name="CloseBrowser"/>
-          <include name="verifySortProductByPrices"/>
           <include name="OpenBrowser"/>
+          <include name="verifySelectingQuantityByIncButton"/>
+          <include name="verifyColourOfProducts"/>
+          <include name="verifySelectingQuantityByInsertVal"/>
+          <include name="CloseBrowser"/>
         </methods>
-      </class> <!-- com.bees.tests.CoffeeAndTeaTest -->
+      </class> <!-- com.bees.tests.TinCupTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

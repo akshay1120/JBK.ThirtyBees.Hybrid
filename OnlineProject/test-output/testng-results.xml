@@ -1,85 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="154668" started-at="2021-06-09T15:18:57Z" finished-at="2021-06-09T15:21:32Z">
+  <suite name="Default suite" duration-ms="100050" started-at="2021-06-14T06:33:12Z" finished-at="2021-06-14T06:34:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="154668" started-at="2021-06-09T15:18:57Z" finished-at="2021-06-09T15:21:32Z">
-      <class name="com.bees.tests.CoffeeAndTeaTest">
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.bees.tests.CoffeeAndTeaTest@7791a895]" name="OpenBrowser" is-config="true" duration-ms="22405" started-at="2021-06-09T15:18:57Z" finished-at="2021-06-09T15:19:19Z">
+    <test name="Default test" duration-ms="100050" started-at="2021-06-14T06:33:12Z" finished-at="2021-06-14T06:34:52Z">
+      <class name="com.bees.tests.TinCupTest">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.bees.tests.TinCupTest@7791a895]" name="OpenBrowser" is-config="true" duration-ms="23198" started-at="2021-06-14T06:33:12Z" finished-at="2021-06-14T06:33:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="verifySortProductByPrices()[pri:1, instance:com.bees.tests.CoffeeAndTeaTest@7791a895]" name="verifySortProductByPrices" duration-ms="7256" started-at="2021-06-09T15:19:19Z" finished-at="2021-06-09T15:19:27Z">
+        <test-method status="PASS" signature="verifyColourOfProducts()[pri:1, instance:com.bees.tests.TinCupTest@7791a895]" name="verifyColourOfProducts" duration-ms="10364" started-at="2021-06-14T06:33:35Z" finished-at="2021-06-14T06:33:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySortProductByPrices -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.bees.tests.CoffeeAndTeaTest@7791a895]" name="CloseBrowser" is-config="true" duration-ms="132" started-at="2021-06-09T15:19:27Z" finished-at="2021-06-09T15:19:27Z">
+        </test-method> <!-- verifyColourOfProducts -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.bees.tests.TinCupTest@7791a895]" name="CloseBrowser" is-config="true" duration-ms="150" started-at="2021-06-14T06:33:46Z" finished-at="2021-06-14T06:33:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.bees.tests.CoffeeAndTeaTest@7791a895]" name="OpenBrowser" is-config="true" duration-ms="12774" started-at="2021-06-09T15:19:27Z" finished-at="2021-06-09T15:19:40Z">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.bees.tests.TinCupTest@7791a895]" name="OpenBrowser" is-config="true" duration-ms="19492" started-at="2021-06-14T06:33:46Z" finished-at="2021-06-14T06:34:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="verifyFilterByFlavor()[pri:2, instance:com.bees.tests.CoffeeAndTeaTest@7791a895]" name="verifyFilterByFlavor" duration-ms="10283" started-at="2021-06-09T15:19:40Z" finished-at="2021-06-09T15:19:50Z">
+        <test-method status="PASS" signature="verifySelectingQuantityByInsertVal()[pri:2, instance:com.bees.tests.TinCupTest@7791a895]" name="verifySelectingQuantityByInsertVal" duration-ms="10508" started-at="2021-06-14T06:34:05Z" finished-at="2021-06-14T06:34:16Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyFilterByFlavor -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.bees.tests.CoffeeAndTeaTest@7791a895]" name="CloseBrowser" is-config="true" duration-ms="124" started-at="2021-06-09T15:19:50Z" finished-at="2021-06-09T15:19:50Z">
+        </test-method> <!-- verifySelectingQuantityByInsertVal -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.bees.tests.TinCupTest@7791a895]" name="CloseBrowser" is-config="true" duration-ms="138" started-at="2021-06-14T06:34:16Z" finished-at="2021-06-14T06:34:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.bees.tests.CoffeeAndTeaTest@7791a895]" name="OpenBrowser" is-config="true" duration-ms="13974" started-at="2021-06-09T15:19:50Z" finished-at="2021-06-09T15:20:04Z">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.bees.tests.TinCupTest@7791a895]" name="OpenBrowser" is-config="true" duration-ms="28941" started-at="2021-06-14T06:34:16Z" finished-at="2021-06-14T06:34:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="searchInvalidProduct()[pri:3, instance:com.bees.tests.CoffeeAndTeaTest@7791a895]" name="searchInvalidProduct" duration-ms="1867" started-at="2021-06-09T15:20:04Z" finished-at="2021-06-09T15:20:06Z">
+        <test-method status="PASS" signature="verifySelectingQuantityByIncButton()[pri:3, instance:com.bees.tests.TinCupTest@7791a895]" name="verifySelectingQuantityByIncButton" duration-ms="7096" started-at="2021-06-14T06:34:45Z" finished-at="2021-06-14T06:34:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchInvalidProduct -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.bees.tests.CoffeeAndTeaTest@7791a895]" name="CloseBrowser" is-config="true" duration-ms="119" started-at="2021-06-09T15:20:06Z" finished-at="2021-06-09T15:20:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CloseBrowser -->
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.bees.tests.CoffeeAndTeaTest@7791a895]" name="OpenBrowser" is-config="true" duration-ms="15097" started-at="2021-06-09T15:20:06Z" finished-at="2021-06-09T15:20:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="verifySearchMug()[pri:4, instance:com.bees.tests.CoffeeAndTeaTest@7791a895]" name="verifySearchMug" duration-ms="6630" started-at="2021-06-09T15:20:21Z" finished-at="2021-06-09T15:20:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySearchMug -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.bees.tests.CoffeeAndTeaTest@7791a895]" name="CloseBrowser" is-config="true" duration-ms="137" started-at="2021-06-09T15:20:28Z" finished-at="2021-06-09T15:20:28Z">
+        </test-method> <!-- verifySelectingQuantityByIncButton -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.bees.tests.TinCupTest@7791a895]" name="CloseBrowser" is-config="true" duration-ms="140" started-at="2021-06-14T06:34:52Z" finished-at="2021-06-14T06:34:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.bees.tests.CoffeeAndTeaTest@7791a895]" name="OpenBrowser" is-config="true" duration-ms="11215" started-at="2021-06-09T15:20:28Z" finished-at="2021-06-09T15:20:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="verifyViewedProducts()[pri:5, instance:com.bees.tests.CoffeeAndTeaTest@7791a895]" name="verifyViewedProducts" duration-ms="21619" started-at="2021-06-09T15:20:39Z" finished-at="2021-06-09T15:21:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyViewedProducts -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.bees.tests.CoffeeAndTeaTest@7791a895]" name="CloseBrowser" is-config="true" duration-ms="4138" started-at="2021-06-09T15:21:01Z" finished-at="2021-06-09T15:21:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CloseBrowser -->
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.bees.tests.CoffeeAndTeaTest@7791a895]" name="OpenBrowser" is-config="true" duration-ms="16535" started-at="2021-06-09T15:21:05Z" finished-at="2021-06-09T15:21:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="VerifySelectPriceRange()[pri:6, instance:com.bees.tests.CoffeeAndTeaTest@7791a895]" name="VerifySelectPriceRange" duration-ms="10220" started-at="2021-06-09T15:21:21Z" finished-at="2021-06-09T15:21:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifySelectPriceRange -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.bees.tests.CoffeeAndTeaTest@7791a895]" name="CloseBrowser" is-config="true" duration-ms="114" started-at="2021-06-09T15:21:32Z" finished-at="2021-06-09T15:21:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CloseBrowser -->
-      </class> <!-- com.bees.tests.CoffeeAndTeaTest -->
+      </class> <!-- com.bees.tests.TinCupTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -46,8 +46,8 @@ public class MyAccountPage extends MyAccountPgObjRepo
 	public CoffeeAndTeaPage navigateToCoffeeAndTeaPg() 
 	{
 		Utility.click(coffeeAndTeaMenu);
-		WaitUtility.waitForPageLoad(5);
-		WaitUtility.implicitWait(5);
+		WaitUtility.waitForPageLoad(5 , driver);
+		WaitUtility.implicitWait(5 , driver);
 		return new CoffeeAndTeaPage(driver);
 	}
 

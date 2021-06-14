@@ -61,14 +61,14 @@ public class CoffeeAndTeaPage extends CoffeeAndTeaPgObjRepo
 		{
 			RobotUtility.downKey();
 		}
-		WaitUtility.waitForPageLoad(5);
-		WaitUtility.implicitWait(5);
+		WaitUtility.waitForPageLoad(10 , driver);
+		WaitUtility.implicitWait(10 , driver);
 		WaitUtility.sleep(5000);
 		
 		log.info("Clicking on Mean Bean flavor");
 		Utility.click(meanBean);
-		WaitUtility.waitForPageLoad(5);
-		WaitUtility.implicitWait(5);
+		WaitUtility.waitForPageLoad(10 , driver);
+		WaitUtility.implicitWait(10 , driver);
 		WaitUtility.sleep(5000);
 		
 		if(coffeeImage.isDisplayed())
@@ -149,24 +149,24 @@ public class CoffeeAndTeaPage extends CoffeeAndTeaPgObjRepo
 		{
 			RobotUtility.downKey();	
 		}
-		WaitUtility.waitForPageLoad(5);
-		WaitUtility.implicitWait(5);
+		WaitUtility.waitForPageLoad(10 , driver);
+		WaitUtility.implicitWait(10 , driver);
 		WaitUtility.sleep(2000);
 		
 		log.info("Clicking on Honey");
 		Utility.click(clickHoney);
-		WaitUtility.waitForPageLoad(5);
-		WaitUtility.implicitWait(5);
+		WaitUtility.waitForPageLoad(10 , driver);
+		WaitUtility.implicitWait(10 , driver);
 		WaitUtility.sleep(4000);
 		
 		Utility.navigateBack(driver);
-		WaitUtility.waitForPageLoad(5);
-		WaitUtility.implicitWait(5);
+		WaitUtility.waitForPageLoad(10 , driver);
+		WaitUtility.implicitWait(10 , driver);
 		WaitUtility.sleep(4000);
 		
 		Utility.navigateRefresh(driver);
-		WaitUtility.waitForPageLoad(5);
-		WaitUtility.implicitWait(5);
+		WaitUtility.waitForPageLoad(10 , driver);
+		WaitUtility.implicitWait(10 , driver);
 		WaitUtility.sleep(4000);
 		
 		RobotUtility.downKey();	
@@ -197,8 +197,8 @@ public class CoffeeAndTeaPage extends CoffeeAndTeaPgObjRepo
 		{
 			RobotUtility.downKey();
 		}
-		WaitUtility.waitForPageLoad(5);
-		WaitUtility.implicitWait(5);
+		WaitUtility.waitForPageLoad(10 , driver);
+		WaitUtility.implicitWait(10 , driver);
 		WaitUtility.sleep(5000);
 		
 		Utility.click(priceSlider);
@@ -236,8 +236,8 @@ public class CoffeeAndTeaPage extends CoffeeAndTeaPgObjRepo
 		RobotUtility.downKey();
 		
 		Utility.click(clickTinCup);
-		WaitUtility.waitForPageLoad(5);
-		WaitUtility.implicitWait(5);
+		WaitUtility.waitForPageLoad(10 , driver);
+		WaitUtility.implicitWait(10 , driver);
 		
 		return new TinCupPage(driver);
 	}

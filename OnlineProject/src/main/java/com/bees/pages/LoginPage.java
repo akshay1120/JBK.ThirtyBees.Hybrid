@@ -25,14 +25,14 @@ public class LoginPage extends LoginPgObjRepo
 	public boolean validLogin ()
 	{
 		Utility.click(signIn);
-		WaitUtility.waitForPageLoad(5);
-		WaitUtility.implicitWait(5);
+		WaitUtility.waitForPageLoad(10 , driver);
+		WaitUtility.implicitWait(10 , driver);
 		
 		Utility.sendkeys(emailAddr, "asjain3031@gmail.com");
 		Utility.sendkeys(pass, "425114");
 		Utility.click(signInButton);
-		WaitUtility.waitForPageLoad(5);
-		WaitUtility.implicitWait(5);
+		WaitUtility.waitForPageLoad(10 , driver);
+		WaitUtility.implicitWait(10 , driver);
 		
 		String actUrl = Utility.getCurrentUrl(driver);
 		log.info("actual Url = " + actUrl);
@@ -57,8 +57,8 @@ public class LoginPage extends LoginPgObjRepo
 	public void loginWithExcelData(HashMap<String,String> hm) throws Exception
 	{
 		Utility.click(signIn);
-		WaitUtility.waitForPageLoad(5);
-		WaitUtility.implicitWait(5);
+		WaitUtility.waitForPageLoad(10 , driver);
+		WaitUtility.implicitWait(10 , driver);
 		
 		Set<String> keys = hm.keySet();
 		
@@ -88,14 +88,14 @@ public class LoginPage extends LoginPgObjRepo
 	public MyAccountPage navigateMyAccountPg() 
 	{
 		Utility.click(signIn);
-		WaitUtility.waitForPageLoad(5);
-		WaitUtility.implicitWait(5);
+		WaitUtility.waitForPageLoad(10 , driver);
+		WaitUtility.implicitWait(10 , driver);
 		
 		Utility.sendkeys(emailAddr, "asjain3031@gmail.com");
 		Utility.sendkeys(pass, "425114");
 		Utility.click(signInButton);
-		WaitUtility.waitForPageLoad(5);
-		WaitUtility.implicitWait(5);
+		WaitUtility.waitForPageLoad(10 , driver);
+		WaitUtility.implicitWait(10 , driver);
 		
 		return new MyAccountPage(driver);
 	}

@@ -1,38 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <listeners>
+    <listener class-name="com.bees.listeners.TestListener"/>
+  </listeners>
+  <test thread-count="1" name="Test(failed)" parallel="methods">
     <classes>
-      <class name="com.bees.tests.LoginTest">
-        <methods>
-          <include name="verifyValidLogin"/>
-          <include name="CloseBrowser"/>
-          <include name="endReport"/>
-          <include name="OpenBrowser"/>
-          <include name="tearDown"/>
-          <include name="setExtent"/>
-        </methods>
-      </class> <!-- com.bees.tests.LoginTest -->
       <class name="com.bees.tests.TinCupTest">
         <methods>
           <include name="OpenBrowser"/>
+          <include name="verifySelectingQuantityByIncButton"/>
           <include name="verifyColourOfProducts"/>
-          <include name="endReport"/>
-          <include name="tearDown"/>
-          <include name="setExtent"/>
+          <include name="verifySelectingQuantityByInsertVal"/>
           <include name="CloseBrowser"/>
         </methods>
       </class> <!-- com.bees.tests.TinCupTest -->
-      <class name="com.bees.tests.CoffeeAndTeaTest">
-        <methods>
-          <include name="CloseBrowser"/>
-          <include name="verifySortProductByPrices"/>
-          <include name="endReport"/>
-          <include name="tearDown"/>
-          <include name="OpenBrowser"/>
-          <include name="setExtent"/>
-        </methods>
-      </class> <!-- com.bees.tests.CoffeeAndTeaTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

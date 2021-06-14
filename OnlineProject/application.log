@@ -1,36 +1,75 @@
-2021-06-09 20:48:57,604  INFO [main] TestBase:33 - Opening the browser
-2021-06-09 20:48:59,776  INFO [main] TestBase:38 - Inserting the Url
-2021-06-09 20:49:20,006  INFO [main] TestBase:36 - verify Sort Product By Prices
-2021-06-09 20:49:26,298  INFO [main] TestBase:39 - actData = [TIN CUP, MUG, TEA, COFFEE, HONEY]
-2021-06-09 20:49:27,234  INFO [main] TestBase:42 - expData = [TIN CUP, MUG, TEA, COFFEE, HONEY]
-2021-06-09 20:49:27,234  INFO [main] TestBase:46 - Actual and Expected list matched
-2021-06-09 20:49:27,385  INFO [main] TestBase:33 - Opening the browser
-2021-06-09 20:49:28,771  INFO [main] TestBase:38 - Inserting the Url
-2021-06-09 20:49:40,158  INFO [main] TestBase:43 - verify Filter By Flavor
-2021-06-09 20:49:45,210  INFO [main] TestBase:68 - Clicking on Mean Bean flavor
-2021-06-09 20:49:50,441  INFO [main] TestBase:76 - coffee Image is Displayed
-2021-06-09 20:49:50,571  INFO [main] TestBase:33 - Opening the browser
-2021-06-09 20:49:51,953  INFO [main] TestBase:38 - Inserting the Url
-2021-06-09 20:50:04,544  INFO [main] TestBase:50 - searching Invalid Product
-2021-06-09 20:50:06,406  INFO [main] TestBase:95 - actAlertMessage = No results were found for your search "@#$"
-2021-06-09 20:50:06,406  INFO [main] TestBase:98 - expAlertMessage = No results were found for your search "@#$"
-2021-06-09 20:50:06,410  INFO [main] TestBase:102 - actAlertMessage and expAlertMessage matched
-2021-06-09 20:50:06,533  INFO [main] TestBase:33 - Opening the browser
-2021-06-09 20:50:07,935  INFO [main] TestBase:38 - Inserting the Url
-2021-06-09 20:50:21,628  INFO [main] TestBase:57 - Searching valid product - MUG
-2021-06-09 20:50:28,256  INFO [main] TestBase:127 - actData = [MUG]
-2021-06-09 20:50:28,256  INFO [main] TestBase:131 - expData = [MUG]
-2021-06-09 20:50:28,258  INFO [main] TestBase:135 - actdata and expdata matched
-2021-06-09 20:50:28,398  INFO [main] TestBase:33 - Opening the browser
-2021-06-09 20:50:29,832  INFO [main] TestBase:38 - Inserting the Url
-2021-06-09 20:50:39,612  INFO [main] TestBase:64 - Verifying Viewed Products
-2021-06-09 20:50:41,655  INFO [main] TestBase:156 - Clicking on Honey
-2021-06-09 20:51:01,229  INFO [main] TestBase:176 - actualProduct = Honey
-2021-06-09 20:51:01,229  INFO [main] TestBase:179 - expectedProduct = Honey
-2021-06-09 20:51:01,231  INFO [main] TestBase:183 - actualProduct and expectedProduct matched
-2021-06-09 20:51:05,371  INFO [main] TestBase:33 - Opening the browser
-2021-06-09 20:51:06,746  INFO [main] TestBase:38 - Inserting the Url
-2021-06-09 20:51:21,906  INFO [main] TestBase:71 - Verifying Select Price Range Option
-2021-06-09 20:51:32,125  INFO [main] TestBase:213 - actData = [COFFEE, TEA, HONEY]
-2021-06-09 20:51:32,125  INFO [main] TestBase:219 - expData = [COFFEE, TEA, HONEY]
-2021-06-09 20:51:32,126  INFO [main] TestBase:223 - actdata and expdata matched
+2021-06-14 12:05:40,390  INFO [TestNG-test=Test-1] TestBase:33 - Opening the browser
+2021-06-14 12:05:42,576  INFO [TestNG-test=Test-1] TestBase:38 - Inserting the Url
+2021-06-14 12:05:57,229  INFO [TestNG-test=Test-1] TestBase:36 - Verifying options of My Account Page
+2021-06-14 12:05:57,326  INFO [TestNG-test=Test-1] TestBase:28 - actData = [Order history and details, My credit slips, My addresses, My personal information]
+2021-06-14 12:05:58,259  INFO [TestNG-test=Test-1] TestBase:31 - expData = [Order history and details, My credit slips, My addresses, My personal information]
+2021-06-14 12:05:58,259  INFO [TestNG-test=Test-1] TestBase:35 - Actual and Expected list matched
+2021-06-14 12:05:58,383  INFO [TestNG-test=Test-1] TestBase:33 - Opening the browser
+2021-06-14 12:05:59,839  INFO [TestNG-test=Test-1] TestBase:38 - Inserting the Url
+2021-06-14 12:06:22,843  INFO [TestNG-test=Test-1] TestBase:36 - verify Sort Product By Prices
+2021-06-14 12:06:29,167  INFO [TestNG-test=Test-1] TestBase:39 - actData = [TIN CUP, MUG, TEA, COFFEE, HONEY]
+2021-06-14 12:06:29,238  INFO [TestNG-test=Test-1] TestBase:42 - expData = [TIN CUP, MUG, TEA, COFFEE, HONEY]
+2021-06-14 12:06:29,238  INFO [TestNG-test=Test-1] TestBase:46 - Actual and Expected list matched
+2021-06-14 12:06:29,355  INFO [TestNG-test=Test-1] TestBase:33 - Opening the browser
+2021-06-14 12:06:30,823  INFO [TestNG-test=Test-1] TestBase:38 - Inserting the Url
+2021-06-14 12:06:37,701  INFO [TestNG-test=Test-1] TestBase:28 - verify Valid Login
+2021-06-14 12:06:40,878  INFO [TestNG-test=Test-1] TestBase:38 - actual Url = http://javabykiran.in/Other/thbees/my-account
+2021-06-14 12:06:40,878  INFO [TestNG-test=Test-1] TestBase:41 - Expected Url = http://javabykiran.in/Other/thbees/my-account
+2021-06-14 12:06:40,884  INFO [TestNG-test=Test-1] TestBase:45 - Actual and expected Url matched
+2021-06-14 12:06:41,727  INFO [TestNG-test=Test-1] TestBase:33 - Opening the browser
+2021-06-14 12:06:43,097  INFO [TestNG-test=Test-1] TestBase:38 - Inserting the Url
+2021-06-14 12:07:05,287  INFO [TestNG-test=Test-1] TestBase:36 - verify Colour Of Products
+2021-06-14 12:07:15,272  INFO [TestNG-test=Test-1] TestBase:37 - actColour = Color : Black
+2021-06-14 12:07:15,272  INFO [TestNG-test=Test-1] TestBase:40 - expColour = Color : Black
+2021-06-14 12:07:15,272  INFO [TestNG-test=Test-1] TestBase:44 - actcolour and expcolour matched
+2021-06-14 12:07:15,423  INFO [TestNG-test=Test-1] TestBase:33 - Opening the browser
+2021-06-14 12:07:16,910  INFO [TestNG-test=Test-1] TestBase:38 - Inserting the Url
+2021-06-14 12:07:32,040  INFO [TestNG-test=Test-1] TestBase:43 - verify Filter By Flavor
+2021-06-14 12:07:37,073  INFO [TestNG-test=Test-1] TestBase:68 - Clicking on Mean Bean flavor
+2021-06-14 12:07:42,319  INFO [TestNG-test=Test-1] TestBase:76 - coffee Image is Displayed
+2021-06-14 12:07:42,471  INFO [TestNG-test=Test-1] TestBase:33 - Opening the browser
+2021-06-14 12:07:43,885  INFO [TestNG-test=Test-1] TestBase:38 - Inserting the Url
+2021-06-14 12:07:54,476  INFO [TestNG-test=Test-1] TestBase:35 - verifying Login Data Using Excel
+2021-06-14 12:08:01,099  INFO [TestNG-test=Test-1] TestBase:71 - Login - BEE
+2021-06-14 12:08:01,110  INFO [TestNG-test=Test-1] TestBase:81 - Invalid Data = Username : Kiran@gmail.com    Password :987654
+2021-06-14 12:08:04,882  INFO [TestNG-test=Test-1] TestBase:71 - Login - BEE
+2021-06-14 12:08:04,891  INFO [TestNG-test=Test-1] TestBase:81 - Invalid Data = Username : asj@gmail.com    Password :123456
+2021-06-14 12:08:09,148  INFO [TestNG-test=Test-1] TestBase:71 - My account - BEE
+2021-06-14 12:08:09,152  INFO [TestNG-test=Test-1] TestBase:75 - Valid Data = Username : asjain3031@gmail.com    Password :425114
+2021-06-14 12:08:13,599  INFO [TestNG-test=Test-1] TestBase:33 - Opening the browser
+2021-06-14 12:08:14,970  INFO [TestNG-test=Test-1] TestBase:38 - Inserting the Url
+2021-06-14 12:08:36,255  INFO [TestNG-test=Test-1] TestBase:43 - verify Selecting Quantity By Insert Val
+2021-06-14 12:08:46,752  INFO [TestNG-test=Test-1] TestBase:75 - actQuantity = 10
+2021-06-14 12:08:46,752  INFO [TestNG-test=Test-1] TestBase:78 - expQuantity = 10
+2021-06-14 12:08:46,754  INFO [TestNG-test=Test-1] TestBase:82 - actQuantity and expQuantity matched
+2021-06-14 12:08:46,883  INFO [TestNG-test=Test-1] TestBase:33 - Opening the browser
+2021-06-14 12:08:48,330  INFO [TestNG-test=Test-1] TestBase:38 - Inserting the Url
+2021-06-14 12:09:05,754  INFO [TestNG-test=Test-1] TestBase:50 - searching Invalid Product
+2021-06-14 12:09:08,158  INFO [TestNG-test=Test-1] TestBase:95 - actAlertMessage = No results were found for your search "@#$"
+2021-06-14 12:09:08,158  INFO [TestNG-test=Test-1] TestBase:98 - expAlertMessage = No results were found for your search "@#$"
+2021-06-14 12:09:08,158  INFO [TestNG-test=Test-1] TestBase:102 - actAlertMessage and expAlertMessage matched
+2021-06-14 12:09:08,291  INFO [TestNG-test=Test-1] TestBase:33 - Opening the browser
+2021-06-14 12:09:09,697  INFO [TestNG-test=Test-1] TestBase:38 - Inserting the Url
+2021-06-14 12:09:27,455  INFO [TestNG-test=Test-1] TestBase:50 - verify Selecting Quantity By Inc Button
+2021-06-14 12:09:34,466  INFO [TestNG-test=Test-1] TestBase:111 - actQuantity = 11
+2021-06-14 12:09:34,466  INFO [TestNG-test=Test-1] TestBase:114 - expQuantity = 11
+2021-06-14 12:09:34,466  INFO [TestNG-test=Test-1] TestBase:118 - actQuantity and expQuantity matched
+2021-06-14 12:09:34,622  INFO [TestNG-test=Test-1] TestBase:33 - Opening the browser
+2021-06-14 12:09:36,015  INFO [TestNG-test=Test-1] TestBase:38 - Inserting the Url
+2021-06-14 12:09:53,107  INFO [TestNG-test=Test-1] TestBase:57 - Searching valid product - MUG
+2021-06-14 12:09:58,951  INFO [TestNG-test=Test-1] TestBase:127 - actData = [MUG]
+2021-06-14 12:09:58,951  INFO [TestNG-test=Test-1] TestBase:131 - expData = [MUG]
+2021-06-14 12:09:58,951  INFO [TestNG-test=Test-1] TestBase:135 - actdata and expdata matched
+2021-06-14 12:09:59,109  INFO [TestNG-test=Test-1] TestBase:33 - Opening the browser
+2021-06-14 12:10:00,526  INFO [TestNG-test=Test-1] TestBase:38 - Inserting the Url
+2021-06-14 12:10:17,117  INFO [TestNG-test=Test-1] TestBase:64 - Verifying Viewed Products
+2021-06-14 12:10:19,163  INFO [TestNG-test=Test-1] TestBase:156 - Clicking on Honey
+2021-06-14 12:10:40,330  INFO [TestNG-test=Test-1] TestBase:176 - actualProduct = Honey
+2021-06-14 12:10:40,330  INFO [TestNG-test=Test-1] TestBase:179 - expectedProduct = Honey
+2021-06-14 12:10:40,330  INFO [TestNG-test=Test-1] TestBase:183 - actualProduct and expectedProduct matched
+2021-06-14 12:10:40,497  INFO [TestNG-test=Test-1] TestBase:33 - Opening the browser
+2021-06-14 12:10:41,965  INFO [TestNG-test=Test-1] TestBase:38 - Inserting the Url
+2021-06-14 12:11:00,236  INFO [TestNG-test=Test-1] TestBase:71 - Verifying Select Price Range Option
+2021-06-14 12:11:10,487  INFO [TestNG-test=Test-1] TestBase:213 - actData = [COFFEE, TEA, HONEY]
+2021-06-14 12:11:10,487  INFO [TestNG-test=Test-1] TestBase:219 - expData = [COFFEE, TEA, HONEY]
+2021-06-14 12:11:10,487  INFO [TestNG-test=Test-1] TestBase:223 - actdata and expdata matched
